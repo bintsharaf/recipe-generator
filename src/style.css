@@ -6,6 +6,21 @@ body {
     max-width: 600px;
     margin: 100px auto;
 }
+header {
+    
+}
+.form-container {
+    background: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+
+}
+.form-container .form-input {
+    border: 1px solid lightgreen;
+    padding: 15px;
+    border-radius: 30px;
+    width: 80%;
+}
 h1 {
     font-family: "Playfair", serif;
     font-weight: 800;
