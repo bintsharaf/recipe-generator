@@ -1,0 +1,14 @@
+body {
+    background-color: lightgreen;
+
+}
+.container {
+    max-width: 600px;
+    margin: 100px auto;
+}
+h1 {
+    font-family: "Playfair", serif;
+    font-weight: 800;
+    text-align: center;
+    font-size: 40px;
+}
