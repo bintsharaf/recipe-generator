@@ -11,7 +11,7 @@ header {
 }
 .form-container {
     background: white;
-    padding: 10px 20px;
+    padding: 20px;
     border-radius: 10px;
 
 }
@@ -19,11 +19,26 @@ header {
     border: 1px solid lightgreen;
     padding: 15px;
     border-radius: 30px;
-    width: 80%;
+    width: 70%;
+}
+.form-container .form-submit {
+    color: white;
+    padding: 15px;
+    border-radius: 30px;
+    border: none;
+    background: lightgreen;
+  
 }
 h1 {
     font-family: "Playfair", serif;
     font-weight: 800;
     text-align: center;
     font-size: 40px;
+}
+.form-output {
+    padding: 15px;
+    background: white;
+    margin-top: 15px;
+    border-left: 1px solid lightgreen;
+    border-radius: 15px;
 }
