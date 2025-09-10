@@ -1,5 +1,8 @@
+:root {
+    --brand-color: #138013;
+}
 body {
-    background-color: lightgreen;
+    background-color: #cdfacd;
 
 }
 .container {
@@ -13,10 +16,11 @@ header {
     background: white;
     padding: 20px;
     border-radius: 10px;
+    
 
 }
 .form-container .form-input {
-    border: 1px solid lightgreen;
+    border: 1px solid var(--brand-color);
     padding: 15px;
     border-radius: 30px;
     width: 70%;
@@ -26,8 +30,8 @@ header {
     padding: 15px;
     border-radius: 30px;
     border: none;
-    background: lightgreen;
-  
+    background: var(--brand-color);
+    cursor: pointer;
 }
 h1 {
     font-family: "Playfair", serif;
@@ -39,6 +43,24 @@ h1 {
     padding: 15px;
     background: white;
     margin-top: 15px;
-    border-left: 1px solid lightgreen;
-    border-radius: 15px;
+    border-left: 3px solid var(--brand-color);
+    border-radius: 1px;
+}
+footer {
+    text-align: center;
+}
+footer a {
+    color: var(--brand-color);
+    cursor: pointer;
+}
+@media (max-width: 900px) {
+    .form-container {
+
+    }
+    .form-container .form-input {
+        padding: 10px;
+    }
+    .form-container .form-submit {
+        padding: 10px;
+    }
 }
