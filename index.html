@@ -6,7 +6,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&display=swap" rel="stylesheet">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>  
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AI Recipe Generator</title>
 </head>
 <body>
@@ -16,17 +17,15 @@
     </header>
     <main>
         
-        <form action="">
+        <form action="" id="form">
             <input type="text" placeholder="Enter the african recipe" id="" required autocomplete="off" autofocus
             class="form-input">
             <input type="submit" value="Generate Recipe"
             class="form-submit">
         </form>
         
-        <div class="form-output">
-             <div>hey! hey!</div>
-             <br>
-             <div>hey! hey!</div>
+        <div class="form-output" id="recipe">
+             <div></div>
         </div>
        
     </main>
