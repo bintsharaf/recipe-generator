@@ -17,15 +17,18 @@
         <h1>AI Recipe Generator</h1>
     </header>
     <main>
+        <div class="form-container">
+            <form action="" id="form">
+                <input type="text" placeholder="Enter a recipe" id="user-instructions" required autocomplete="off" autofocus
+                class="form-input">
+                <input type="submit" value="Generate Recipe"
+                class="form-submit">
+            </form>
+            <div class="hint">i.e: Jollof Rice, Biryani, or Eba</div>
+        </div>
         
-        <form action="" id="form">
-            <input type="text" placeholder="Enter a recipe" id="user-instructions" required autocomplete="off" autofocus
-            class="form-input">
-            <input type="submit" value="Generate Recipe"
-            class="form-submit">
-        </form>
         
-        <div class="form-output" id="recipe">
+        <div class="form-output hidden" id="recipe">
              <div></div>
         </div>
        
