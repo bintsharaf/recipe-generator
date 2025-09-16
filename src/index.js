@@ -14,7 +14,7 @@ function generateRecipe(event) {
     recipe.innerHTML = "hey! hey!";*/
     let instructionInput = document.querySelector("#user-instructions");
     let key = "29583e5b03o3adtc2486edaf9f3af0e3";
-    let context = "you are a recipe expert and love to explain recipe to a layman. Your mission is to use basic HTML ande separate each instruction with a <br/> and put each title inside a <strong>";
+    let context = "you are a recipe expert and love to explain recipe to a layman in a single page. Your mission is to use basic HTML ande separate each instruction with a <br/> and put each title inside a <strong>. Also make sure you finish all the instructions!. also don't allow html or any html tags to appear anywhere as a text. and please end with a word of encouragement!";
     let prompt = `User instructions: Generate an african recipe about ${instructionInput.value}`;
     let apiUrl = `https://api.shecodes.io/ai/v1/generate?prompt=${prompt}&context=${context}&key=${key}`;
     
